@@ -1,0 +1,33 @@
+.navbar a.navbar-item {
+  color: hsl(0, 0%, 100%);
+}
+
+.navbar a.navbar-item:hover {
+  color: hsl(204, 86%, 53%);
+}
+
+.section .container {
+  max-width: 980px;
+}
+
+.card {
+  margin-top: 2em;
+}
+
+.image img.avatar {
+  border: 1px solid #ececec;
+  border-radius: 50%;
+}
+
+.author {
+  justify-content: flex-start;
+}
+
+i {
+  color: hsl(204, 86%, 53%);
+}
+
+.is-flex-mobile {
+  justify-content: center;
+  margin-bottom: 1em;
+}

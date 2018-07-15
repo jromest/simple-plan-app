@@ -1,0 +1,27 @@
+{
+  "name": "Simple Plan App",
+  "short_name": "SPApp",
+  "description": "A simple single page progressive web app ",
+  "lang": "en-US",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#209cee",
+  "icons": [
+    {
+      "src": "static/rocket-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "static/rocket-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "static/rocket-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
+}
