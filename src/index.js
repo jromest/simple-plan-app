@@ -59,8 +59,8 @@ function getScrollPercent() {
   );
 }
 
-async function fetchContent(url, callback) {
-  await fetch(url)
+function fetchContent(url, callback) {
+  fetch(url)
     .then(response => response.json())
     .then(json => callback(json))
     .catch(err => {
