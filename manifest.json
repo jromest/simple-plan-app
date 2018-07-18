@@ -1,7 +1,7 @@
 {
   "name": "Simple Plan App",
   "short_name": "SPApp",
-  "description": "A simple single page progressive web app ",
+  "description": "A simple single page progressive web app",
   "lang": "en-US",
   "start_url": "/index.html",
   "display": "standalone",
