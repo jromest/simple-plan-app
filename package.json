@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html",
-    "deploy": "parcel build ./src/index.html && gh-pages -d dist"
+    "deploy": "parcel build ./src/index.html --public-url ./simple-plan-app/ && gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^1.2.0",
